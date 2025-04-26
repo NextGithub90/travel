@@ -39,3 +39,24 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #0d6efd;
+  color: white;
+}
+#testimonials img {
+  object-fit: cover;
+}
+#testimonials h6 {
+  font-size: 16px;
+}
+#testimonials p {
+  font-size: 14px;
+}
